@@ -19,7 +19,7 @@ function getRandomArbitrary() {
   }
 
 function changecolor() {
-/*     console.log('maricarmen');
+/*     
     console.log(getRandomArbitrary()); */
 }
 
