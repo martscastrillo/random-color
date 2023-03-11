@@ -1,6 +1,8 @@
 "use strict";
 
-const btn=document.querySelector(".btn");
+const btn=document.querySelector(".js_btn");
+const box_color=document.querySelector(".js_box_color");
+
 
 const background=document.querySelector(".background");
 function getRandomArbitrary() {
@@ -17,9 +19,8 @@ function getRandomArbitrary() {
   }
 
 function changecolor() {
-    console.log('maricarmen');
- 
-    console.log(getRandomArbitrary());
+/*     console.log('maricarmen');
+    console.log(getRandomArbitrary()); */
 }
 
 btn.addEventListener("click", changecolor);
