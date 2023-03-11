@@ -19,7 +19,8 @@ function getRandomArbitrary() {
   }
 
 function changecolor() {
-/*  console.log(getRandomArbitrary()); */
+ console.log(getRandomArbitrary());
+box_color.innerHTML = getRandomArbitrary();
 }
 
 btn.addEventListener("click", changecolor);
